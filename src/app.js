@@ -66,7 +66,7 @@ $(document).ready(() => {
             console.log(currentPicOrder)
         }, 10000)
     }
-    play()
+    
     $('#replay').click(() => {
         for(let i = 0; i < numOfPics; i++) {
             $(`#pic${i}`).remove()

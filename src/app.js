@@ -63,7 +63,7 @@ $(document).ready(() => {
         setTimeout(() => {
             hidePics()
             handelClickEvent()
-        }, 10000)
+        }, 15000)
     }
     
     $('#replay').click(() => {

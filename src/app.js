@@ -7,7 +7,7 @@ $(document).ready(() => {
         const picContainer = $("#picContainer")
         const pics = ['pic1', 'pic2', 'pic3', 'pic4', 'pic5', 'pic6', 'pic7', 'pic8']
         let currentPicOrder = []
-        let timer = 10
+        let timer = 15
     
         function addPicElement() {
             let markup = ""
@@ -63,7 +63,6 @@ $(document).ready(() => {
         setTimeout(() => {
             hidePics()
             handelClickEvent()
-            console.log(currentPicOrder)
         }, 10000)
     }
     
